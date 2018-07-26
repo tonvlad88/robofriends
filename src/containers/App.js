@@ -3,6 +3,7 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import './App.css';
+import logo from './tony1.png';
 
 class App extends Component {
 	constructor() {
@@ -36,7 +37,8 @@ class App extends Component {
 		:
 			 
 			<div className="tc">		
-				<h1 className="f1">RoboFriends</h1>	
+				<img src={logo} alt="tonyph" /> 
+				<h1 className="f1">RoboFriends</h1>					
 				<SearchBox searchChange= {this.onSearchChange}/>		
 				<Scroll>
 					<CardList robots = { filteredRobots }/>

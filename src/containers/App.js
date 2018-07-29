@@ -39,11 +39,11 @@ class App extends Component {
 		:
 			 
 			<div className="tc">
-				<div className="mt5">
-					<Tilt className="Tilt center ba ba b--dotted b--light-blue" options={{ max : 25 }} style={{ height: 203, width: 191 }} >	
-					 <img className="Tilt-inner" src={logo} alt="tonyph" /> 
-					</Tilt>	
-				</div>					
+				<div className="mw5 center pa3 ">
+					<Tilt className="Tilt br3 shadow-2 pa1" options={{ max : 25 }} style={{ height: 203, width: 203 }} >
+					 <div className="Tilt-inner b1"> <img src={logo} alt="tony" /></div>
+					</Tilt>
+				</div>		
 
 				<h1 className="f1">RoboFriends</h1>					
 				<SearchBox searchChange= {this.onSearchChange}/>		

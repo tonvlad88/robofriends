@@ -40,7 +40,7 @@ class App extends Component {
 			 
 			<div className="tc">
 				<div className="mt5">
-					<Tilt className="Tilt center ba ba b--dotted bw2 b--light-blue" options={{ max : 25 }} style={{ height: 203, width: 191 }} >	
+					<Tilt className="Tilt center ba ba b--dotted b--light-blue" options={{ max : 25 }} style={{ height: 203, width: 191 }} >	
 					 <img className="Tilt-inner" src={logo} alt="tonyph" /> 
 					</Tilt>	
 				</div>					
